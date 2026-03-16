@@ -211,6 +211,57 @@ footer {
 }
 
 /* ============================= */
+/* Travel Progress Tracker */
+/* ============================= */
+
+.progress-wrapper {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.progress-label {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e5e5e5;
+  border-radius: 4px;
+}
+
+.progress-fill {
+  width: 42%;   /* 21 out of 50 = 42% */
+  height: 100%;
+  background: #000;
+  border-radius: 4px;
+}
+
+/* ============================= */
+/* State Tags */
+/* ============================= */
+
+.states-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.state {
+  padding: 6px 12px;
+  border: 1px solid #000;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+.state.visited {
+  background: #000;
+  color: #fff;
+}
+
+/* ============================= */
 /* Responsive */
 /* ============================= */
 
